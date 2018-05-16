@@ -127,8 +127,8 @@ void ejecutarPipe(){
   }
 }
 /*Este metodo se usa si se encuentra ">" en el arrego, se encarga de guardar lo que esta antes y despues del ">" en
-subarreglos, posteriormente usa estos para crear un archivo en donde el primer subarreglo(instruction) es el nombre del
-archivo y el segundo(instruction2) el cuerpo de este.
+subarreglos, posteriormente usa estos para crear un archivo en donde el primer subarreglo(instruction2) es el cuerpo del
+archivo y el segundo(filename) el nombre de este.
  */
 void guardarEnArchivo(){
   char *head;
