@@ -7,4 +7,4 @@ libshell.a: shell.o
 shell.o:
 	gcc -c shell.c
 clean:
-	rm shell *.output -f lib*.a *.o 
+	rm shell *.output -f lib*.a *.o
