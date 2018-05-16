@@ -1,3 +1,12 @@
+/*
+  UNIVERSIDAD DEL VALLE
+  PROYECTO SHELL
+
+  Carlos Esteban Murillo
+  Juan Camilo Sanchez
+  Herney Quintero
+
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -14,7 +23,7 @@ while(1){
     printf("$_: ");
     scanf("%[^\n]%*c",comando);
     //almacena un string (char*) completo
-    
+
     //se comparan strings, si son iguales retorna 0
     if (!strcmp("exit", comando)){
       printf("\n");
@@ -35,6 +44,5 @@ while(1){
       ejecutar();
       vaciar();
     }
-  
-}
+  }
 }
